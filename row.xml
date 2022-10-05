@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    	android:background="#ff00ff00"
+    >
+	<LinearLayout 
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="horizontal"
+			android:background="#ff00ff00"
+		 >
+		<TextView 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="data:"
+			android:textColor="#ff000000"
+			android:background="#ff00ff00"
+		/>
+
+
+		<TextView 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/text"
+			android:textColor="#ff000000"
+			android:background="#ff00ff00"
+		/>
+	</LinearLayout>
+	<LinearLayout 
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="horizontal"
+		 >
+		<TextView 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="designação:"
+			android:textColor="#ff000000"
+			android:background="#ff00ff00"
+		/>
+
+
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#ff000000"
+			android:background="#ff00ff00"
+			android:id="@+id/text2"
+		/>
+	</LinearLayout>
+	<LinearLayout 
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="horizontal"
+			android:background="#ff00ff00"
+		 >
+		<TextView 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="valor:"
+			android:textColor="#ff000000"
+			android:background="#ff00ff00"
+		/>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#ff000000"
+			android:background="#ff00ff00"
+			android:id="@+id/text3"
+		/>
+	</LinearLayout>
+	<LinearLayout 
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="horizontal" 
+		android:background="#ff00ff00"
+		>
+		<TextView 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="total:"
+			android:textColor="#ff000000"
+			android:background="#ff00ff00
+		/>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#ff000000"
+			android:background="#ff00ff00"
+			android:id="@+id/text4"
+		/>
+	</LinearLayout>
+</LinearLayout>
+
+
+
