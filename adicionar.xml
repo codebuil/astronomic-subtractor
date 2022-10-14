@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent"
+   android:background="#ff00ff00"
+>
+
+
+
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:padding="10dp" 
+	android:color="#ff00ff00"
+	android:background="#ff00ff00"
+>
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:padding="10dp" 
+		android:color="#ff00ff00"
+		android:background="#ff00ff00"
+	>
+		<TextView
+			android:id="@+id/l11"
+			android:text="date:"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#ff00ff00"
+		/>
+		<EditText
+			android:id="@+id/edata"
+			android:text=" "
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:textColor="#ff000000"
+
+		/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:padding="10dp" 
+		android:color="#ffffffff"
+		android:background="#ff00ff00"
+	>
+		<TextView
+			android:id="@+id/l21"
+			android:text="name:"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#ff00ff00"
+		/>
+		<EditText
+			android:id="@+id/enome"
+			android:text=" "
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textColor="#ff00ff00"
+
+		/>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:padding="10dp" 
+		android:color="#ffffffff"
+		android:background="#ff00ff00"
+	>
+		<TextView
+			android:id="@+id/l31"
+			android:text="value:"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+						android:textColor="#ff000000"
+			
+			 />
+		<EditText
+			android:id="@+id/evalor"
+			android:text=" "
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:textColor="#ff000000"
+		/>
+	</LinearLayout>
+
+
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="10dp" 
+		android:color="#ffffffff"
+		android:background="#ff00ff00"
+	>
+		<Button 
+			android:id="@+id/add" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:text="add" />
+		<Button 
+			android:id="@+id/cancelar" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:text="cancel" />
+		<Button 
+			android:id="@+id/modificar" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:text="modificar" />
+
+
+		<Button 
+			android:id="@+id/limpar" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:text="clean" />
+		<Button 
+			android:id="@+id/apagar" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:text="delete" />
+
+		<Button 
+			android:id="@+id/zero" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:text="0" />
+
+	</LinearLayout>
+</LinearLayout>
+
+
+</ScrollView>
+
+
+
+
